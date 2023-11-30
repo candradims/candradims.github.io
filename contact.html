@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>home</title>
+
+    <!-- font awesome cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+
+    <!-- swiper css link -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <!-- custom css link -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- header section start -->
+    <header class="header">
+      <a href="#" class="logo">
+        <i class="fas fa-lightbulb"></i> BrainBoost Academy
+      </a>
+
+      <nav class="navbar">
+        <div id="close-navbar" class="fas fa-times"></div>
+        <a href="home.html">home</a>
+        <a href="about.html">Tentang</a>
+        <a href="courses.html">Kursus</a>
+        <a href="contact.html">kontak</a>
+      </nav>
+
+      <div class="icons">
+        <div id="account-btn" class="fas fa-user"></div>
+        <div id="menu-btn" class="fas fa-bars"></div>
+      </div>
+    </header>
+
+    <!-- header section end -->
+
+    <!-- account form section starts -->
+
+    <div class="account-form">
+      <div id="close-form" class="fas fa-times"></div>
+
+      <div class="buttons">
+        <span class="btn active login-btn">login</span>
+        <span class="btn register-btn">register</span>
+      </div>
+
+      <form class="login-form active" action="">
+        <h3>login sekarang</h3>
+        <input type="email" placeholder="masukkan email anda" class="box" />
+        <input
+          type="password"
+          placeholder="masukkan password anda"
+          class="box"
+        />
+        <div class="flex">
+          <input type="checkbox" name="" id="remember-me" />
+          <label for="remember-me">ingatkan saya</label>
+          <a href="#">lupa password?</a>
+        </div>
+        <input type="submit" value="login sekarang" class="btn" />
+      </form>
+
+      <form class="register-form" action="">
+        <h3>register sekarang</h3>
+        <input type="email" placeholder="masukkan email anda" class="box" />
+        <input type="password" placeholder="masukkan email anda" class="box" />
+        <input
+          type="password"
+          placeholder="konfirmasi password Anda"
+          class="box"
+        />
+        <input type="submit" value="register sekarang" class="btn" />
+      </form>
+    </div>
+
+    <!-- account form section end -->
+
+    <section class="heading-link">
+      <h3>kontak kami</h3>
+      <p><a href="home.html">home</a> / kontak</p>
+    </section>
+
+    <!-- contact section start -->
+
+    <section class="contact">
+      <h1 class="heading">berhubungan</h1>
+      <div class="icons-container">
+        <div class="icons">
+          <i class="fas fa-clock"></i>
+          <h3>jam buka :</h3>
+          <p>07.00 - 19.00</p>
+        </div>
+
+        <div class="icons">
+          <i class="fas fa-phone"></i>
+          <h3>telepon :</h3>
+          <p>+62-814-3443-3779</p>
+          <p>+62-877-0352-3783</p>
+        </div>
+
+        <div class="icons">
+          <i class="fas fa-envelope"></i>
+          <h3>email :</h3>
+          <p>BrainBoostAcademy@gmail.com</p>
+        </div>
+
+        <div class="icons">
+          <i class="fas fa-map"></i>
+          <h3>alamat :</h3>
+          <p>Gresik, indonesia - jalan taman gapura blok JH/22</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="image">
+          <img src="images/contact.png" alt="" />
+        </div>
+
+        <form action="">
+          <h3>kirimkan pesan kepada kami</h3>
+          <input type="text" placeholder="nama" class="box" />
+          <input type="email" placeholder="email" class="box" />
+          <input type="number" placeholder="telepon" class="box" />
+          <textarea
+            name=""
+            class="box"
+            placeholder="pesan"
+            id=""
+            cols="30"
+            rows="10"
+          ></textarea>
+          <input type="submit" value="kirimkan pesan" class="btn" />
+        </form>
+      </div>
+    </section>
+
+    <!-- contact section end -->
+
+    <!-- faq section start -->
+
+    <section class="faq">
+      <h1 class="heading">pertanyaan yang sering diajukan</h1>
+
+      <div class="accordion-container">
+        <div class="accordion active">
+          <div class="accordion-heading">
+            <h3>cara menghubungi untuk meminta bantuan</h3>
+            <i class="fas fa-angle-down"></i>
+          </div>
+          <p class="accordion-content">
+            Hubungi via telepon, email, atau kunjungi langsung. Sampaikan
+            permintaan bantuan dengan jelas dan berikan detail informasi untuk
+            respons cepat.
+          </p>
+        </div>
+
+        <div class="accordion">
+          <div class="accordion-heading">
+            <h3>apa yang menjadi karier terbaik di tahun 2023</h3>
+            <i class="fas fa-angle-down"></i>
+          </div>
+          <p class="accordion-content">
+            Tidak dapat dengan pasti memprediksi karier terbaik di tahun 2023.
+            Pilih karier yang sesuai minat, keterampilan, dan tren pasar kerja
+            saat ini.
+          </p>
+        </div>
+
+        <div class="accordion">
+          <div class="accordion-heading">
+            <h3>berapa biaya untuk pengembangan web?</h3>
+            <i class="fas fa-angle-down"></i>
+          </div>
+          <p class="accordion-content">
+            Biaya pengembangan web bervariasi. Mulai dari beberapa ratus hingga
+            ribuan dolar, tergantung kompleksitas, fitur, dan penyedia layanan
+            yang Anda pilih.
+          </p>
+        </div>
+
+        <div class="accordion">
+          <div class="accordion-heading">
+            <h3>bolehkah aku memilih tutorku?</h3>
+            <i class="fas fa-angle-down"></i>
+          </div>
+          <p class="accordion-content">
+            Tergantung pada kebijakan bimbingan belajar. Beberapa memungkinkan
+            pilihan tutor, sementara yang lain mungkin memiliki penugasan
+            otomatis berdasarkan kebutuhan dan ketersediaan.
+          </p>
+        </div>
+
+        <div class="accordion">
+          <div class="accordion-heading">
+            <h3>metode pembayaran apa yang tersedia</h3>
+            <i class="fas fa-angle-down"></i>
+          </div>
+          <p class="accordion-content">
+            Tersedia berbagai metode pembayaran, termasuk transfer bank, kartu
+            kredit,cash, dan pembayaran online.
+          </p>
+        </div>
+
+        <div class="accordion">
+          <div class="accordion-heading">
+            <h3>can i have trial for a month?</h3>
+            <i class="fas fa-angle-down"></i>
+          </div>
+          <p class="accordion-content">
+            bisa dengan syarat tertentu yang telah ditentukan oleh pihak kami.
+            periksa untuk informasi lebih lanjut mengenai opsi percobaan yang
+            tersedia.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- faq section end -->
+
+    <!-- logo slider start -->
+
+    <section class="logo-container">
+      <div class="swiper logo-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="images/logo-1.png" alt="" /></div>
+          <div class="swiper-slide"><img src="images/logo-2.png" alt="" /></div>
+          <div class="swiper-slide"><img src="images/logo-3.png" alt="" /></div>
+          <div class="swiper-slide"><img src="images/logo-4.png" alt="" /></div>
+          <div class="swiper-slide"><img src="images/logo-5.png" alt="" /></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- logo slider end -->
+
+    <!-- footer section start -->
+
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3><i class="fas fa-lightbulb"></i> BrainBoost Academy</h3>
+          <p>
+            BrainBoost Academy: Tempat bimbingan belajar unggul dengan tutor
+            berkualitas dan metode pembelajaran inovatif untuk meningkatkan
+            pemahaman dan prestasi akademis siswa.
+          </p>
+          <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+          </div>
+        </div>
+
+        <div class="box">
+          <h3>tautan cepat</h3>
+          <a href="home.html" class="link">home</a>
+          <a href="about.html" class="link">Tentang</a>
+          <a href="courses.html" class="link">Kursus</a>
+          <a href="contact.html" class="link">Kontak</a>
+        </div>
+
+        <div class="box">
+          <h3>tautan yang bermanfaat</h3>
+          <a href="#" class="link">pusat Bantuan</a>
+          <a href="#" class="link">bertanya</a>
+          <a href="#" class="link">kirim umpan balik</a>
+          <a href="#" class="link">kebijakan swasta</a>
+          <a href="#" class="link">jangka waktu penggunaan</a>
+        </div>
+
+        <div class="box">
+          <h3>buletin</h3>
+          <p>berlangganan untuk pembaruan terkini</p>
+          <form action="">
+            <input
+              type="email"
+              name=""
+              placeholder="masukkan email anda"
+              id=""
+              class="email"
+            />
+            <input type="submit" value="bergabung" class="btn" />
+          </form>
+        </div>
+      </div>
+
+      <div class="credit">
+        created by<span>Dimas Candra Febrian</span> | all rights reserved
+      </div>
+    </section>
+
+    <!-- footer section end -->
+
+    <!-- swiper js  link -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link -->
+    <script src="./script.js"></script>
+  </body>
+</html>

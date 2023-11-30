@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>home</title>
+
+    <!-- font awesome cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+
+    <!-- swiper css link -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <!-- custom css link -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- header section start -->
+    <header class="header">
+      <a href="#" class="logo">
+        <i class="fas fa-lightbulb"></i> BrainBoost Academy
+      </a>
+
+      <nav class="navbar">
+        <div id="close-navbar" class="fas fa-times"></div>
+        <a href="home.html">home</a>
+        <a href="about.html">Tentang</a>
+        <a href="courses.html">Kursus</a>
+        <a href="contact.html">kontak</a>
+      </nav>
+
+      <div class="icons">
+        <div id="account-btn" class="fas fa-user"></div>
+        <div id="menu-btn" class="fas fa-bars"></div>
+      </div>
+    </header>
+
+    <!-- header section end -->
+
+    <!-- account form section starts -->
+
+    <div class="account-form">
+      <div id="close-form" class="fas fa-times"></div>
+
+      <div class="buttons">
+        <span class="btn active login-btn">login</span>
+        <span class="btn register-btn">register</span>
+      </div>
+
+      <form class="login-form active" action="">
+        <h3>login sekarang</h3>
+        <input type="email" placeholder="masukkan email anda" class="box" />
+        <input
+          type="password"
+          placeholder="masukkan password anda"
+          class="box"
+        />
+        <div class="flex">
+          <input type="checkbox" name="" id="remember-me" />
+          <label for="remember-me">ingatkan saya</label>
+          <a href="#">lupa password?</a>
+        </div>
+        <input type="submit" value="login sekarang" class="btn" />
+      </form>
+
+      <form class="register-form" action="">
+        <h3>register sekarang</h3>
+        <input type="email" placeholder="masukkan email anda" class="box" />
+        <input type="password" placeholder="masukkan email anda" class="box" />
+        <input
+          type="password"
+          placeholder="konfirmasi password Anda"
+          class="box"
+        />
+        <input type="submit" value="register sekarang" class="btn" />
+      </form>
+    </div>
+
+    <!-- account form section end -->
+
+    <section class="heading-link">
+      <h3>tentang kami</h3>
+      <p><a href="home.html">home</a> / tentang</p>
+    </section>
+
+    <!-- about section start -->
+
+    <section class="about">
+      <div class="image">
+        <img src="images/about.png" alt="" />
+      </div>
+
+      <div class="content">
+        <h3 class="about-title">
+          tempat bimbingan belajar terbaik yang akan Anda temukan di sini
+        </h3>
+        <p>
+          Pusat bimbingan belajar unggul dengan tutor berpengalaman, metode
+          inovatif, dan suasana inspiratif, meningkatkan pemahaman siswa untuk
+          sukses akademis yang optimal.
+        </p>
+        <div class="icons-container">
+          <div class="icons">
+            <img src="images/courses.png" alt="" />
+            <h3>50+</h3>
+            <span>kursus</span>
+          </div>
+          <div class="icons">
+            <img src="images/students.png" alt="" />
+            <h3>600+</h3>
+            <span>siswa</span>
+          </div>
+          <div class="icons">
+            <img src="images/award.png" alt="" />
+            <h3>10+</h3>
+            <span>penghargaan</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- teacher section start -->
+
+    <section class="teachers">
+      <h1 class="heading">guru ahli</h1>
+
+      <div class="swiper teachers-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img src="images/teacher-1.jpg" alt="" />
+              <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+              </div>
+            </div>
+
+            <div class="content">
+              <h3>Alexander christian</h3>
+              <span>expert tutor</span>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img src="images/teacher-2.jpg" alt="" />
+              <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+              </div>
+            </div>
+
+            <div class="content">
+              <h3>Jessica omara</h3>
+              <span>expert tutor</span>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img src="images/teacher-3.jpg" alt="" />
+              <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+              </div>
+            </div>
+
+            <div class="content">
+              <h3>joshua lawalata</h3>
+              <span>expert tutor</span>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img src="images/teacher-4.jpg" alt="" />
+              <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+              </div>
+            </div>
+
+            <div class="content">
+              <h3>Aqila ursula</h3>
+              <span>expert tutor</span>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img src="images/teacher-5.jpg" alt="" />
+              <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+              </div>
+            </div>
+
+            <div class="content">
+              <h3>kevin anggara</h3>
+              <span>expert tutor</span>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img src="images/teacher-6.jpg" alt="" />
+              <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+              </div>
+            </div>
+
+            <div class="content">
+              <h3>keifa zerlina</h3>
+              <span>expert tutor</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- teacher section end -->
+
+    <!-- student reviews section start -->
+
+    <section class="reviews">
+      <h1 class="heading">ulasan siswa kami</h1>
+      <div class="swiper reviews-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slide">
+            <p>
+              Tempat bimbingan belajar ini benar-benar membantu. Tutor sangat
+              berpengalaman, memberikan pendekatan yang personal. Saya merasa
+              lebih percaya diri dan berhasil meningkatkan prestasi akademis
+              saya.
+            </p>
+            <img src="images/pic-1.jpg" alt="" />
+            <h3>intan rachmalia</h3>
+            <div class="stars">
+              <i class="fas fa-stars"></i>
+              <i class="fas fa-stars"></i>
+              <i class="fas fa-stars"></i>
+              <i class="fas fa-stars"></i>
+              <i class="fas fa-stars-half-alt"></i>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <p>
+              Saya sangat puas dengan pengalaman belajar di tempat ini. Tutor
+              profesional, suasana ramah, dan program bimbingan yang terstruktur
+              membuat pemahaman saya terhadap pelajaran meningkat secara
+              signifikan. Sangat direkomendasikan
+            </p>
+            <img src="images/pic-2.jpg" alt="" />
+            <h3>rangga akbar</h3>
+            <div class="stars">
+              <i class="fas fa-stars"></i>
+              <i class="fas fa-stars"></i>
+              <i class="fas fa-stars"></i>
+              <i class="fas fa-stars"></i>
+              <i class="fas fa-stars-half-alt"></i>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <p>
+              Tempat bimbingan belajar ini luar biasa! Tutor sangat peduli dan
+              membantu saya mengatasi kesulitan. Atmosfer belajar yang positif
+              dan efektif. Pemahaman saya meningkat secara signifikan. Terima
+              kasih!
+            </p>
+            <img src="images/pic-3.jpg" alt="" />
+            <h3>ica amalia</h3>
+            <div class="stars">
+              <i class="fas fa-stars"></i>
+              <i class="fas fa-stars"></i>
+              <i class="fas fa-stars"></i>
+              <i class="fas fa-stars"></i>
+              <i class="fas fa-stars-half-alt"></i>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <p>
+              Tempat bimbingan belajar ini luar biasa! Tutor sangat berkomitmen,
+              suasana belajar nyaman. Materi disajikan dengan jelas, dan bantuan
+              personal membantu meningkatkan prestasi saya secara signifikan.
+              Sangat merekomendasikan!
+            </p>
+            <img src="images/pic-4.jpg" alt="" />
+            <h3>agil putra</h3>
+            <div class="stars">
+              <i class="fas fa-stars"></i>
+              <i class="fas fa-stars"></i>
+              <i class="fas fa-stars"></i>
+              <i class="fas fa-stars"></i>
+              <i class="fas fa-stars-half-alt"></i>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <p>
+              Tempat bimbingan belajar yang hebat! Tutor profesional, suasana
+              santai, dan program bimbingan yang efektif. Saya merasa lebih
+              percaya diri dan berhasil mencapai hasil yang memuaskan.
+              Rekomendasi tinggi!
+            </p>
+            <img src="images/pic-5.jpg" alt="" />
+            <h3>flowrencia</h3>
+            <div class="stars">
+              <i class="fas fa-stars"></i>
+              <i class="fas fa-stars"></i>
+              <i class="fas fa-stars"></i>
+              <i class="fas fa-stars"></i>
+              <i class="fas fa-stars-half-alt"></i>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <p>
+              Tempat bimbingan belajar ini luar biasa! Tutor sangat peduli dan
+              berpengetahuan. Materi diajarkan dengan jelas, memberikan
+              pemahaman mendalam. Lingkungan belajar yang positif membuat saya
+              meraih kemajuan signifikan.
+            </p>
+            <img src="images/pic-6.jpg" alt="" />
+            <h3>adelia putri</h3>
+            <div class="stars">
+              <i class="fas fa-stars"></i>
+              <i class="fas fa-stars"></i>
+              <i class="fas fa-stars"></i>
+              <i class="fas fa-stars"></i>
+              <i class="fas fa-stars-half-alt"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- student reviews section start -->
+
+    <!-- footer section start -->
+
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3><i class="fas fa-lightbulb"></i> BrainBoost Academy</h3>
+          <p>
+            BrainBoost Academy: Tempat bimbingan belajar unggul dengan tutor
+            berkualitas dan metode pembelajaran inovatif untuk meningkatkan
+            pemahaman dan prestasi akademis siswa.
+          </p>
+          <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+          </div>
+        </div>
+
+        <div class="box">
+          <h3>tautan cepat</h3>
+          <a href="home.html" class="link">home</a>
+          <a href="about.html" class="link">Tentang</a>
+          <a href="courses.html" class="link">Kursus</a>
+          <a href="contact.html" class="link">Kontak</a>
+        </div>
+
+        <div class="box">
+          <h3>tautan yang bermanfaat</h3>
+          <a href="#" class="link">pusat Bantuan</a>
+          <a href="#" class="link">bertanya</a>
+          <a href="#" class="link">kirim umpan balik</a>
+          <a href="#" class="link">kebijakan swasta</a>
+          <a href="#" class="link">jangka waktu penggunaan</a>
+        </div>
+
+        <div class="box">
+          <h3>buletin</h3>
+          <p>berlangganan untuk pembaruan terkini</p>
+          <form action="">
+            <input
+              type="email"
+              name=""
+              placeholder="masukkan email anda"
+              id=""
+              class="email"
+            />
+            <input type="submit" value="bergabung" class="btn" />
+          </form>
+        </div>
+      </div>
+
+      <div class="credit">
+        created by<span>Dimas Candra Febrian</span> | all rights reserved
+      </div>
+    </section>
+
+    <!-- footer section end -->
+
+    <!-- swiper js  link -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link -->
+    <script src="./script.js"></script>
+  </body>
+</html>

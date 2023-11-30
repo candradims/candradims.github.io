@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>home</title>
+
+    <!-- font awesome cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+
+    <!-- swiper css link -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <!-- custom css link -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- header section start -->
+    <header class="header">
+      <a href="#" class="logo">
+        <i class="fas fa-lightbulb"></i> BrainBoost Academy
+      </a>
+
+      <nav class="navbar">
+        <div id="close-navbar" class="fas fa-times"></div>
+        <a href="home.html">home</a>
+        <a href="about.html">Tentang</a>
+        <a href="courses.html">Kursus</a>
+        <a href="contact.html">kontak</a>
+      </nav>
+
+      <div class="icons">
+        <div id="account-btn" class="fas fa-user"></div>
+        <div id="menu-btn" class="fas fa-bars"></div>
+      </div>
+    </header>
+
+    <!-- header section end -->
+
+    <!-- account form section starts -->
+
+    <div class="account-form">
+      <div id="close-form" class="fas fa-times"></div>
+
+      <div class="buttons">
+        <span class="btn active login-btn">login</span>
+        <span class="btn register-btn">register</span>
+      </div>
+
+      <form class="login-form active" action="">
+        <h3>login sekarang</h3>
+        <input type="email" placeholder="masukkan email anda" class="box" />
+        <input
+          type="password"
+          placeholder="masukkan password anda"
+          class="box"
+        />
+        <div class="flex">
+          <input type="checkbox" name="" id="remember-me" />
+          <label for="remember-me">ingatkan saya</label>
+          <a href="#">lupa password?</a>
+        </div>
+        <input type="submit" value="login sekarang" class="btn" />
+      </form>
+
+      <form class="register-form" action="">
+        <h3>register sekarang</h3>
+        <input type="email" placeholder="masukkan email anda" class="box" />
+        <input type="password" placeholder="masukkan email anda" class="box" />
+        <input
+          type="password"
+          placeholder="konfirmasi password Anda"
+          class="box"
+        />
+        <input type="submit" value="register sekarang" class="btn" />
+      </form>
+    </div>
+
+    <!-- account form section end -->
+
+    <section class="heading-link">
+      <h3>kursus kami</h3>
+      <p><a href="home.html">home</a> / kursus</p>
+    </section>
+
+    <section class="courses">
+      <h1 class="heading">kursus populer kami</h1>
+      <div class="box-container">
+        <div class="box">
+          <div class="image">
+            <img src="images/kursus-1.jpg" alt="" />
+            <h3>web development</h3>
+          </div>
+          <div class="content">
+            <h3>pilih yang terbaik untukmu</h3>
+            <p>
+              Pelajari keterampilan pengembangan web dengan instruktur ahli dan
+              proyek praktis untuk pengalaman pembelajaran mendalam.
+            </p>
+            <a href="#" class="btn">baca selengkapnya</a>
+            <div class="icons">
+              <span> <i class="fas fa-book"></i> 14 modul </span>
+              <span> <i class="fas fa-clock"></i> 3 jam </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="images/kursus-2.jpg" alt="" />
+            <h3>science</h3>
+          </div>
+          <div class="content">
+            <h3>pilih yang terbaik untukmu</h3>
+            <p>
+              Eksplorasi konsep sains melalui percobaan praktis, diskusi, dan
+              pendekatan interaktif, memperdalam pemahaman siswa.
+            </p>
+            <a href="#" class="btn">baca selengkapnya</a>
+            <div class="icons">
+              <span> <i class="fas fa-book"></i> 12 modul </span>
+              <span> <i class="fas fa-clock"></i> 2 jam </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="images/kursus-3.jpg" alt="" />
+            <h3>matematika</h3>
+          </div>
+          <div class="content">
+            <h3>pilih yang terbaik untukmu</h3>
+            <p>
+              Pelajari konsep matematika dengan metode interaktif, tutor ahli,
+              dan praktik intensif untuk meningkatkan pemahaman Anda.
+            </p>
+            <a href="#" class="btn">baca selengkapnya</a>
+            <div class="icons">
+              <span> <i class="fas fa-book"></i> 14 modul </span>
+              <span> <i class="fas fa-clock"></i> 3 jam </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="images/kursus-4.jpg" alt="" />
+            <h3>digital marketing</h3>
+          </div>
+          <div class="content">
+            <h3>pilih yang terbaik untukmu</h3>
+            <p>
+              Pelajari pemasaran digital dengan praktik, analisis data, dan
+              pengetahuan untuk sukses dalam promosi online.
+            </p>
+            <a href="#" class="btn">baca selengkapnya</a>
+            <div class="icons">
+              <span> <i class="fas fa-book"></i> 16 modul </span>
+              <span> <i class="fas fa-clock"></i> 4 jam </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="images/kursus-5.jpg" alt="" />
+            <h3>fotografi</h3>
+          </div>
+          <div class="content">
+            <h3>pilih yang terbaik untukmu</h3>
+            <p>
+              Pengalaman belajar visual kreatif dengan teknik, komposisi, dan
+              praktik fotografi, diarahkan oleh instruktur berpengalaman.
+            </p>
+            <a href="#" class="btn">baca selengkapnya</a>
+            <div class="icons">
+              <span> <i class="fas fa-book"></i> 12 modul </span>
+              <span> <i class="fas fa-clock"></i> 2 jam </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="images/kursus-6.jpg" alt="" />
+            <h3>bahasa</h3>
+          </div>
+          <div class="content">
+            <h3>pilih yang terbaik untukmu</h3>
+            <p>
+              Peroleh keterampilan bahasa dengan metode interaktif, dialog, dan
+              praktik intensif untuk komunikasi efektif.
+            </p>
+            <a href="#" class="btn">baca selengkapnya</a>
+            <div class="icons">
+              <span> <i class="fas fa-book"></i> 16 modules </span>
+              <span> <i class="fas fa-clock"></i> 4 jam </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="box hide">
+          <div class="image">
+            <img src="images/kursus-7.jpg" alt="" />
+            <h3>desain grafis</h3>
+          </div>
+          <div class="content">
+            <h3>pilih yang terbaik untukmu</h3>
+            <p>
+              Pelajari seni dan teknik desain grafis melalui instruktur ahli
+              dengan proyek kreatif dan pengalaman praktis.
+            </p>
+            <a href="#" class="btn">baca selengkapnya</a>
+            <div class="icons">
+              <span> <i class="fas fa-book"></i> 12 modul </span>
+              <span> <i class="fas fa-clock"></i> 2 jam </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="box hide">
+          <div class="image">
+            <img src="images/kursus-8.jpg" alt="" />
+            <h3>engineering</h3>
+          </div>
+          <div class="content">
+            <h3>pilih yang terbaik untukmu</h3>
+            <p>
+              Mendalami teknik rekayasa dengan pembelajaran praktis, proyek
+              simulasi, dan instruktur berpengalaman untuk memperdalam pemahaman
+              dalam bidang teknik.
+            </p>
+            <a href="#" class="btn">baca selengkapnya</a>
+            <div class="icons">
+              <span> <i class="fas fa-book"></i> 17 modules </span>
+              <span> <i class="fas fa-clock"></i> 4,5 jam </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="box hide">
+          <div class="image">
+            <img src="images/kursus-9.jpg" alt="" />
+            <h3>memasak</h3>
+          </div>
+          <div class="content">
+            <h3>pilih yang terbaik untukmu</h3>
+            <p>
+              Pelajari seni memasak dengan teknik kreatif, resep autentik, dan
+              panduan chef berpengalaman untuk meningkatkan keahlian memasak
+              Anda.
+            </p>
+            <a href="#" class="btn">baca selengkapnya</a>
+            <div class="icons">
+              <span> <i class="fas fa-book"></i> 14 modul </span>
+              <span> <i class="fas fa-clock"></i> 4 jam </span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="load-more"><div class="btn">baca selengkapnya</div></div>
+    </section>
+
+    <!-- footer section start -->
+
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3><i class="fas fa-lightbulb"></i> BrainBoost Academy</h3>
+          <p>
+            BrainBoost Academy: Tempat bimbingan belajar unggul dengan tutor
+            berkualitas dan metode pembelajaran inovatif untuk meningkatkan
+            pemahaman dan prestasi akademis siswa.
+          </p>
+          <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+          </div>
+        </div>
+
+        <div class="box">
+          <h3>tautan cepat</h3>
+          <a href="home.html" class="link">home</a>
+          <a href="about.html" class="link">Tentang</a>
+          <a href="courses.html" class="link">Kursus</a>
+          <a href="contact.html" class="link">Kontak</a>
+        </div>
+
+        <div class="box">
+          <h3>tautan yang bermanfaat</h3>
+          <a href="#" class="link">pusat Bantuan</a>
+          <a href="#" class="link">bertanya</a>
+          <a href="#" class="link">kirim umpan balik</a>
+          <a href="#" class="link">kebijakan swasta</a>
+          <a href="#" class="link">jangka waktu penggunaan</a>
+        </div>
+
+        <div class="box">
+          <h3>buletin</h3>
+          <p>berlangganan untuk pembaruan terkini</p>
+          <form action="">
+            <input
+              type="email"
+              name=""
+              placeholder="masukkan email anda"
+              id=""
+              class="email"
+            />
+            <input type="submit" value="bergabung" class="btn" />
+          </form>
+        </div>
+      </div>
+
+      <div class="credit">
+        created by<span>Dimas Candra Febrian</span> | all rights reserved
+      </div>
+    </section>
+
+    <!-- footer section end -->
+
+    <!-- swiper js  link -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link -->
+    <script src="./script.js"></script>
+  </body>
+</html>
